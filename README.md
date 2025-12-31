@@ -28,7 +28,7 @@ Portfolio project for demonstrating scalable AWS web infrastructure with VPC, EC
 ![S3 Bucket Diagram](screenshot/S3bucket.PNG)
 
 ### 3. EC2 Instance- Launched EC2 in public subnet  - Installed Nginx  - Pulled static content from S3 using IAM role  
-![S3 Bucket Diagram](screenshot/S3bucket.PNG)
+![EC2 Instance](screenshot/EC2Instance.PNG)
 ![IAM Role](screenshot/RoleIAM.PNG)
 
 '''bash
