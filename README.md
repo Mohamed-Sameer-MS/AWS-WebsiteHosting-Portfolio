@@ -18,6 +18,7 @@ Portfolio project for demonstrating scalable AWS web infrastructure with VPC, EC
 
 ## Implementation Steps
 ### 1. VPC and Networking- Created a **custom VPC** with public subnets  - Configured routing tables and Internet Gateway for public access  
+!VPC(screenshot/VPC/*)
 ### 2. S3 Bucket- Created an S3 bucket to store `index.html`  - Enabled public access for testing purposes  
 ### 3. EC2 Instance- Launched EC2 in public subnet  - Installed Nginx  - Pulled static content from S3 using IAM role  
 '''bash
