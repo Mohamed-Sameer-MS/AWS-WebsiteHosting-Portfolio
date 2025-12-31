@@ -13,7 +13,7 @@ Portfolio project for demonstrating scalable AWS web infrastructure with VPC, EC
 ---
 ## Architecture Diagram> Replace the placeholder below with your actual diagram screenshot  
 
-![Architecture Diagram](diagrams/architecture.png)
+![Architecture Diagram](diagrams/Architecture.png)
 
 **Flow:**---
 ## Implementation Steps
