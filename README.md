@@ -11,11 +11,11 @@ Portfolio project for demonstrating scalable AWS web infrastructure with VPC, EC
 - **Route 53**: DNS configuration for testing (domain not registered)
 - **CloudWatch**: Metrics and alarms for EC2 and ALB monitoring  
 ---
-## Architecture Diagram> Replace the placeholder below with your actual diagram screenshot  
+## Architecture Diagram 
 
 ![Architecture Diagram](diagrams/Architecture.png)
 
-**Flow:**---
+
 ## Implementation Steps
 ### 1. VPC and Networking- Created a **custom VPC** with public and private subnets  - Configured routing tables and Internet Gateway for public access  
 ### 2. S3 Bucket- Created an S3 bucket to store `index.html`  - Enabled versioning and public access for testing purposes  
