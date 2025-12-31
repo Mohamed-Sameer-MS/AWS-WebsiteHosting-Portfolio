@@ -45,5 +45,6 @@ aws s3 cp s3://webpage1-s3bucket/Portfolio/index.html /var/www/html/index.html '
 ### 6. Route 53 (DNS – Testing Only)- Created Public Hosted ZoneAdded A record (Alias → ALB). Domain not registered → ALB DNS used for testing
 ![Route 53](screenshot/Route53.PNG)
 
-### 7. CloudWatch Monitoring- Enabled EC2 metrics (CPU, Network)Enabled ALB metrics (HealthyHostCount, RequestCount, TargetResponseTime)
+### 7. CloudWatch Monitoring- Enabled EC2 metrics (CPU, Network). Enabled ALB metrics (HealthyHostCount, RequestCount, TargetResponseTime)
 ![Cloud Watch EC2](screenshot/EC2cloudwatch.PNG)
+![ALB Metrics](screenshot/ALBmonitoring.PNG)
