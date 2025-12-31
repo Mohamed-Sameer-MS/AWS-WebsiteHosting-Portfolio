@@ -48,3 +48,8 @@ aws s3 cp s3://webpage1-s3bucket/Portfolio/index.html /var/www/html/index.html '
 ### 7. CloudWatch Monitoring- Enabled EC2 metrics (CPU, Network). Enabled ALB metrics (HealthyHostCount, RequestCount, TargetResponseTime)
 ![Cloud Watch EC2](screenshot/EC2cloudwatch.PNG)
 ![ALB Metrics](screenshot/ALBmonitoring.PNG)
+
+### Output 
+ALB DNS User for testing
+http://applb-1023552693.us-east-1.elb.amazonaws.com/
+![ALB DNS](screenshot/applb-1023552693.us-east-1.elb.amazonaws.com_.png)
